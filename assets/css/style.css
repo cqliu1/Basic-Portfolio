@@ -14,7 +14,11 @@ html, body {
 h1, h2, h3, h4, h5, h6 {
 	font-family: 'Georgia', Times, Times New Roman, serif;
 	color: #4aaaa5;
-	padding: 20px 0;
+	padding-bottom: 20px ;
+}
+
+hr {
+	margin-bottom: 20px
 }
 
 p {
@@ -28,10 +32,16 @@ p {
 	padding: 0 20px;
 }
 
+button {
+	width: 150px;
+	padding: 10px;
+	font-size: 20px;
+	border: none;
+}
+
 header {
-	width: 60%;
-	height: 80px;
-	padding: 0 20%;
+	width: 80%;
+	padding: 0 10%;
 	margin: 0 auto;
 	background-color: #ffffff;
 	border-bottom: 2px solid #cccccc;
@@ -72,7 +82,7 @@ nav li a:hover {
 }
 
 .container {
-	width: 60%;
+	width: 80%;
 	min-height: 100%;
 	height: 100%;
 	margin: 0 auto;
@@ -82,17 +92,17 @@ nav li a:hover {
 .main-content, #connect {
 	background-color: #ffffff;
 	border: 1px solid #dddddd;
-	padding: 20px;
+	padding: 40px;
 
 }
 
 .main-content {
-	width: 60%;
+	width: 65%;
 	float: left;
 }
 
 #connect {
-	width: 30%;
+	width: 20%;
 	float: right;
 }
 
@@ -102,4 +112,35 @@ footer {
 	background-color: #666666;
 	color: #dddddd;
 	padding: 20px;
+}
+
+/* About Page */
+
+#bio-image {
+	width: 200px;
+	height: 200px;
+	float: left;
+	margin: 0 10px;
+}
+
+/* Portfolio Page */
+
+/* Contact Page */
+
+input, textarea {
+	width: 100%;
+	padding: 5px;
+	font-size: 12px;
+	margin: 10px 0;
+}
+
+/* Connect Links */
+
+.connect-icon {
+	width: 32%;
+	height: auto;
+}
+
+.connect-links {
+	padding: 0 auto;
 }
