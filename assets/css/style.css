@@ -40,8 +40,8 @@ button {
 }
 
 header {
-	width: 80%;
-	padding: 0 10%;
+	width: 70%;
+	padding: 0 15%;
 	margin: 0 auto;
 	background-color: #ffffff;
 	border-bottom: 2px solid #cccccc;
@@ -77,12 +77,8 @@ nav li a{
 	text-decoration: none;
 }
 
-nav li a:hover {
-	
-}
-
 .container {
-	width: 80%;
+	width: 70%;
 	min-height: 100%;
 	height: 100%;
 	margin: 0 auto;
@@ -97,12 +93,12 @@ nav li a:hover {
 }
 
 .main-content {
-	width: 65%;
+	width: 63%;
 	float: left;
 }
 
 #connect {
-	width: 15%;
+	width: 20%;
 	float: right;
 }
 
@@ -118,7 +114,7 @@ footer {
 
 #bio-image {
 	width: 200px;
-	height: 200px;
+	height: auto;
 	float: left;
 	margin: 0 10px;
 }
