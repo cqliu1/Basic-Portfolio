@@ -1,2 +1,2 @@
 # Basic-Portfolio
-Professional portfolio site using HTML/CSS
+Portfolio site using HTML/CSS
